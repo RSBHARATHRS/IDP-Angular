@@ -1,0 +1,154 @@
+.main-header{
+	width:100%;
+	height:18vh;
+	position:relative;
+	display:flex;
+	align-items:center;
+}
+
+.header-container{
+	height:100%;
+	width:100%;
+}
+
+#idp-logo{
+	margin-left:1%;
+	float:left;
+	height:100%;
+	width:20%;
+} 
+
+.search-input{
+	color:gray;
+	border:0px;
+	border-bottom:1px solid gray;
+	margin-left:2%;
+	height:30px;
+	width:270px;
+	position:absolute;
+	top:45%;
+    outline: none;
+}
+
+.search-in{
+	border: 0;
+	outline: none;
+	font-size: large;
+	width: 90%;
+}
+
+#header-nav{
+	position:absolute;
+	top:0;
+	bottom:0;
+	margin:auto;
+	right:2%;
+	display:flex;
+	align-items:center;
+}
+
+#header-nav ul li{
+	list-style:none;
+	display:inline-block;
+	padding:8px;
+	color:gray;
+	text-align:center;
+    margin: 8px;
+}
+
+.icon{
+	width:16px;
+	height:16px;
+}
+
+#header-nav ul li a{
+	padding-left:2px;
+	text-decoration:none;
+	color:gray;
+	vertical-align:center;
+	padding-bottom:3px;
+    
+}
+
+#header-nav ul li:hover{
+	border:2px solid black;
+	border-radius:20px;
+}
+
+.round-border{
+	border:1px solid gray;
+	border-radius:30px;
+}
+
+.sec-nav-c{
+    position: absolute;
+	z-index: 2;
+	margin:auto;
+	left:0;
+	right:0;
+	bottom:-16%;
+	width:94%;
+	
+	border-radius:32px;
+	background-image:linear-gradient(#1e202b,#545454);
+	display:flex;
+}
+
+.sec-nav{
+	float: left;
+}
+
+.f_I_icon_holder{
+	position:absolute;
+	right:0;
+	width:7%;
+	height:100%;
+	background-color:white;
+	border-radius:30px;
+	display:flex;
+	flex-direction:row;
+	justify-content: center;
+	align-items:center;
+}
+
+.f_I_icon_holder img{
+    transition: all .2s ease;
+}
+
+.f_I_icon_holder img:hover{
+    transform: scale(1.2);
+}
+
+.sec-nav{
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.sec-nav ul{
+    height: 100%;
+    margin: 0;
+    display: flex;
+	padding-left: 10px;
+}
+
+.sec-nav ul li{
+	display:flex;
+	list-style:none;
+	height: 100%;
+	margin: 0 16px 0 0;
+}
+
+.sec-nav ul li:hover{
+	border:1px solid green;
+	background-image:linear-gradient(to right,#2878fa,#82b2ff);
+	border-radius:20px;
+}
+
+.sec-nav ul li a{
+	color:white;
+	height:100%;
+	padding:6px 6px 6px 6px;
+	text-decoration:none;
+    font-size: 20px;
+}

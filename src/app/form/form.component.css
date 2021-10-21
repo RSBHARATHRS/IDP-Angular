@@ -1,0 +1,79 @@
+.form-container{
+	width:100%;	
+	margin-top:64px;
+    height: 840px;
+}
+
+.form_left{
+	width:50%;
+	height:100%;
+	float:left;
+	background-image:url(../../assets/enquiry1.jpg);
+	background-size:100% 100%;
+	
+}
+.small_font{
+	font-size:14px;
+	color:white;
+}
+.side_radius{
+	color:white;
+	padding:10px;
+	width:45%;
+	margin-top:5%;
+	
+	border-radius:0 35px 35px 0;
+	background-image:linear-gradient(to right,#0067c7,#7482fc);
+}
+.form_placeholder{
+	padding:20px;
+	position:relative;
+}
+.form_right{
+	width:50%;
+	height:100%;
+	float:left;
+	background-color:#f2f3f7;
+}
+.form_placeholder form input[type=text],input[type=email]{
+	width:44%;
+	border:none;
+	border-bottom:1px solid gray;
+	background-color:#f2f3f7;
+	padding:6px;	
+	margin:10px;
+	height:100%;
+}
+.form_placeholder form select{
+	width:44%;
+	border:none;
+	border-bottom:1px solid gray;
+	background-color:#f2f3f7;
+	padding:8px;
+	margin:10px;
+}
+.form_placeholder form label{
+	font-size:12px;
+	margin:10px;
+	color:gray;
+}
+.form_placeholder form input[type=checkbox]{
+	
+	border:none;
+	
+	background-color:#f2f3f7;
+		
+	margin:10px;
+}
+.form_para{
+	margin:10px;
+}
+.form_submit{
+	border-radius:6px;
+	padding:10px;
+	border:none;
+	background-image:linear-gradient(to right,#29a349,#1df055);
+	position:absolute;
+	right:4%;
+	bottom:-4%;
+}

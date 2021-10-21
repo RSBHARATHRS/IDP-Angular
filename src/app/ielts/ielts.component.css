@@ -1,0 +1,140 @@
+/******Engineering courses*****/
+
+.main-container{
+	height: 1210px;
+	width: 100%;
+	margin-top:36px;
+}
+
+.main-c{
+	width: 702px;
+	height: 100%;
+	
+}
+
+.main-c > h1{
+	font-size:45px;
+	color:var(--Green-text-color);
+	
+	padding-left:10px;
+	
+	/* background-image: linear-gradient(to right,#008260,#f29900); */
+	/* background-clip: text; */
+	
+}
+
+.main-c > h2{
+	padding-left:10px;
+}
+
+.main-row{
+	height: 520px;
+	width:100%;
+	
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items:center;
+	
+	margin-top:30px;
+	padding-left:12px;
+}
+
+.card{
+	height: 99%;
+	width: 49%;
+	border-radius:10px;
+	overflow:hidden;
+	
+	box-shadow:0 2px 6px 1px grey;
+	transition:transform .4s ease;
+}
+
+.card:hover{
+	box-shadow:0 1px 1px grey,
+				0 2px 2px grey,
+				0 4px 4px grey,
+				0 8px 8px grey;
+	
+	transform:scale(1.01);
+}
+
+.card-bg-section{
+	position:relative;
+	width:100%;
+	height: 216px;
+	
+}
+
+.card-bg {
+	width:100%;
+	height: 216px;
+}
+
+.heart-icon{
+	position:absolute;
+	top:5%;
+	right:5%;
+	color:white;
+	border:1px solid white;
+	border-radius:100px;
+	padding:2px 11px 2px 11px;
+	font-size:28px;
+	transition: transform 1s ease;
+}
+
+.heart-icon:hover{
+	transform: scale(1.2);
+}
+
+
+.p-sep{
+
+	position: absolute;
+	bottom:19%;
+	left:5%;
+	
+	color:var(--Green-text-color);
+	
+	background-color:white;
+	padding:4px;
+	display:inline;
+}
+
+.p-sep1{
+
+	position: absolute;
+	bottom:5%;
+	left:5%;
+	
+	color:var(--Green-text-color);
+	
+	background-color:white;
+	padding:4px;
+	display:inline;	
+}
+
+.card-content{
+	padding:12px;
+}
+
+.card-content > div {
+	color: #5E6C77;
+	padding: 4px 0 4px 0;
+}
+
+
+
+.card-content > p {
+	color: #C4C4C4;
+}
+
+.card-content > h4 {
+	text-decoration:underline;
+}
+
+.l{
+	width:12px;
+	height: 12px;
+	margin-right: 2px;
+}
