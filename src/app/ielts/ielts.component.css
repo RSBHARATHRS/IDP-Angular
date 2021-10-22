@@ -1,15 +1,14 @@
 /******Engineering courses*****/
 
 .main-container{
-	height: 1210px;
 	width: 100%;
 	margin-top:36px;
 }
 
 .main-c{
-	width: 702px;
-	height: 100%;
-	
+	width: 75%;
+	margin: 0 auto;
+	padding-right: 18%;
 }
 
 .main-c > h1{

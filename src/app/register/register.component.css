@@ -1,0 +1,94 @@
+.popular_course_container{
+	width:100%;
+	height:80vh;
+	position:relative;
+}
+.courses{
+	width:75%;
+	height:100%;
+	position:absolute;
+	left:0;
+	right:0;
+	margin:auto;
+	
+}
+.courses_row1{
+	width:100%;
+	height:35%;
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
+	margin-bottom:0;
+}
+.courses_row2{
+	width:100%;
+	height:40%;
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
+	margin-top:0;
+}
+.course{
+	width:30%;
+	height:100%;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	text-align:center;
+	align-items:center;
+	border:0px solid black;
+}
+.courses img{
+	padding:5px;
+}
+.courses p{
+	padding:5px;
+}
+.sub_link{
+	position:absolute;
+	bottom:6%;
+	right:2%;
+	color:#0086f8;
+}
+
+.perfect_fit_container{
+	width:100%;
+	height:650px;
+	background-color:#f2f3f7;
+	position:relative;
+	
+}
+.perfect_fit{
+	width:75%;
+	height:100%;
+	position:absolute;
+	left:0;
+	right:0;
+	margin:auto;
+	
+	padding-top:24px;
+}
+.fit{
+	width:100%;
+	position:relative;
+}
+.fit_row{
+	width:100%;
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
+	height:140px;
+	margin-top:10px;
+}
+.partners{
+	width:49.6%;
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
+	margin-top:10px;
+}
+.sprit_g{
+	position:absolute;
+	top:-12%;
+	left:20%;
+}

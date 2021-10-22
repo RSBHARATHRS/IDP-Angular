@@ -13,6 +13,7 @@ import { StudentStoriesComponent } from './student-stories/student-stories.compo
 import { StudentComponent } from './student/student.component';
 import { IeltsComponent } from './ielts/ielts.component';
 import { ErrorComponent } from './error/error.component';
+import { ArticlesComponent } from './articles/articles.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { ErrorComponent } from './error/error.component';
     StudentStoriesComponent,
     StudentComponent,
     IeltsComponent,
-    ErrorComponent
+    ErrorComponent,
+    ArticlesComponent
   ],
   imports: [
     BrowserModule,

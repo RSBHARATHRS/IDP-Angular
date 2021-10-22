@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AppComponent } from './app.component';
+import { ArticlesComponent } from './articles/articles.component';
 import { ErrorComponent } from './error/error.component';
 import { FormComponent } from './form/form.component';
 import { IeltsComponent } from './ielts/ielts.component';
@@ -35,9 +36,14 @@ const routes: Routes = [
     component:IeltsComponent
   },
   {
+    path:"articles",
+    component:ArticlesComponent
+  },
+  {
     path:"**",
     component:ErrorComponent
   }
+  
 ];
 
 @NgModule({

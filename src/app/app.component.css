@@ -1,4 +1,7 @@
 h1{
     text-align: center;
-    color: aqua;
+    background-image: linear-gradient(to right,rgb(180, 6, 233),rgb(255, 104, 3));
+    width: 14%;
+    background-clip: text;
+    color: transparent;
 }
