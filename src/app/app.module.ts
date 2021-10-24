@@ -14,6 +14,7 @@ import { StudentComponent } from './student/student.component';
 import { IeltsComponent } from './ielts/ielts.component';
 import { ErrorComponent } from './error/error.component';
 import { ArticlesComponent } from './articles/articles.component';
+import { IeltschildComponent } from './ielts/ieltschild/ieltschild.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { ArticlesComponent } from './articles/articles.component';
     StudentComponent,
     IeltsComponent,
     ErrorComponent,
-    ArticlesComponent
+    ArticlesComponent,
+    IeltschildComponent
   ],
   imports: [
     BrowserModule,

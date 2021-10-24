@@ -10,20 +10,39 @@
             </ul>
         </nav>
     </div>
-    <div class="sec-nav-c">
+    <div class="collapse navbar-collapse sec-nav-c" id="navbarSupportedContent">
         <nav class="sec-nav">
-            <ul>
+            <ul class="navbar-nav mr-auto">
                 <li><a routerLink="home">Home</a></li>
                 <li><a routerLink="form">Form</a></li>
                 <li><a routerLink="register">Courses</a></li>
                 <li><a routerLink="students">Student Stories</a></li>
                 <li><a routerLink="articles">Articles</a></li>
-                <li><a routerLink="ielts">IELTS</a></li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      IELTS<span class="caret"></span>
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" routerLink="ielts/universities">universities</a><br>
+                      <a class="dropdown-item" routerLink="ielts/student reviews">Students reviews</a>
+                    </div>     
+                  </li>
             </ul>
         </nav>
-        <div class="f_I_icon_holder">
-            <a href="https://www.instagram.com/idp.india/?hl=en"><img  src="assets/logo-instagram.svg" alt="insta" style="width:22px;height:22px;margin:10px"></a>
-            <a href="https://www.facebook.com/IDPDelhi/"><img src="assets/awesome-facebook-f.svg" alt="fb" style="width:22px;height:22px;margin:10px"></a>
-        </div>
+       
     </div>
 </header>
+<div class="f_I_icon_holder">
+ <!-- Youtube -->
+<i class="fab fa-youtube fa-2x"></i>
+<!-- Github -->
+<i class="fab fa-github fa-2x"></i>
+    <!-- Linkedin -->
+    <i class="fab fa-linkedin-in fa-2x"></i>
+
+    <!-- Pinterest -->
+    <i class="fab fa-pinterest fa-2x"></i>
+    <!-- Whatsapp -->
+    <i class="fab fa-whatsapp fa-2x"></i>
+    <i class="fab fa-instagram fa-2x"></i>
+</div>

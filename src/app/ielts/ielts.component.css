@@ -13,7 +13,7 @@
 
 .main-c > h1{
 	font-size:45px;
-	color:var(--Green-text-color);
+	color: green;
 	
 	padding-left:10px;
 	
@@ -93,7 +93,7 @@
 	bottom:19%;
 	left:5%;
 	
-	color:var(--Green-text-color);
+	color: green;
 	
 	background-color:white;
 	padding:4px;
@@ -106,7 +106,7 @@
 	bottom:5%;
 	left:5%;
 	
-	color:var(--Green-text-color);
+	color: green;
 	
 	background-color:white;
 	padding:4px;
